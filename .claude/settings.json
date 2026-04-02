@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ -f Makefile ] && make -s lint 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}
