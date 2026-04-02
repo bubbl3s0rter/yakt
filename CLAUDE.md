@@ -11,11 +11,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 ## Commands
 
 ```bash
-make dev        # start dev server / REPL
-make test       # run tests
-make lint       # lint + format (auto-fix)
-make build      # build for production
-make check      # lint without auto-fix (CI)
+just dev        # start dev server / REPL
+just test       # run tests
+just lint       # lint + format (auto-fix)
+just build      # build for production
+just check      # lint without auto-fix (CI)
 ```
 
 ## Architecture

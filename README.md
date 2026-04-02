@@ -5,19 +5,23 @@ A minimal solo-dev project starter with structured docs, a decision log, and Cla
 ## Quick Start
 
 ```bash
+# Install just (one-time)
+brew install just       # macOS
+# or: cargo install just / https://github.com/casey/just#installation
+
 # Enter dev environment (requires nix + direnv)
 direnv allow    # first time only
 # or: nix develop
 
-make help       # see all tasks
+just            # list available recipes
 ```
 
 ## Development
 
 ```bash
-make dev        # start dev server
-make test       # run tests
-make lint       # fix linting
+just dev        # start dev server
+just test       # run tests
+just lint       # fix linting
 ```
 
 ## Structure
