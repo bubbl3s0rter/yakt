@@ -24,6 +24,8 @@ make check      # lint without auto-fix (CI)
      Update this when the structure changes. -->
 - `src/` — source code
 - `docs/spec.md` — what we are building right now
+- `docs/backlog.md` — prioritized queue of upcoming work
+- `docs/architecture.md` — system context, components, data flows, sequences
 - `docs/decisions.md` — why architectural choices were made
 - `docs/progress.md` — current state, what works, what's next
 
@@ -59,4 +61,5 @@ make check      # lint without auto-fix (CI)
 Before writing any code, read:
 1. `docs/spec.md` — the current task and success criteria
 2. `docs/progress.md` — what already exists and works
-3. `docs/decisions.md` — why things are the way they are
+3. `docs/architecture.md` — how the system is structured
+4. `docs/decisions.md` — why things are the way they are
